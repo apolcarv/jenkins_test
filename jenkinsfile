@@ -1,1 +1,12 @@
-
+pipeline {
+    agent any
+    stages {
+        stage('PASO_1') {
+            steps {
+                echo "[paso 1 stage"
+            }
+        }
+        
+    }
+}    
+    
